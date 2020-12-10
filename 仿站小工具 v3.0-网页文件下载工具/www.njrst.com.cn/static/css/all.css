@@ -1,0 +1,23 @@
+﻿/* CSS Document */
+
+*{margin:0;padding:0;word-break:break-all;vertical-align: bottom; font-family:'microsoft yahei';-moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; }
+body{font:12px 'microsoft yahei';background:#fff;position: relative}
+a{text-decoration:none;color:#283a46;}
+a:hover{text-decoration:none;cursor:pointer; }
+ul, li{list-style:none;}
+img{border:0;}
+input,textarea{ outline: none;}
+.c1,.c3,.c4,.c5,.c7,.c9{ max-width:1920px; margin:0 auto}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+color:#ababab;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#ababab;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#ababab;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#ababab;
+}

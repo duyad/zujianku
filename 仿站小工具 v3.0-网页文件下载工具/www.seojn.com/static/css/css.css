@@ -1,0 +1,183 @@
+﻿/* CSS Document */
+html{ height:100%; border:none;}
+body{ height:100%; border:none; padding:0; margin:0; min-width: 1400px; text-align:left; font-size:16px; color:#262626; font-family:Arial,Helvetica,sans-serif; background:#FFF;}
+div,ul,li,img,dl,dd,dt,p{ padding:0; margin:0; border:none;}
+ul,dl{list-style-type:none;}
+h1,h2,h3,h4,h5{ margin: 0; padding:0; font-weight: normal; }
+a{ color:#232323; text-decoration:none;}
+a:hover{ color:#0f78c5; text-decoration:none;}
+.clear{ clear:both;}
+.fl{ float: left; display: inline; }
+.fr{ float: right; display: inline; }
+
+.container {width: 1400px;margin: 0 auto;}
+
+.top{ background: #f5f7fa; height: 29px; line-height: 29px; color: #505051; border-bottom: 1px solid #eceef0; font-size: 12px; }
+
+.header{ height: 80px; position: relative; }
+.header .logo img{ margin-top: 15px; }
+.header .slogn{  margin-left: 35px; margin-top: 15px; padding-left: 25px; font-weight: bold; line-height: 49px;  border-left: 1px solid #d8d8d8; height: 49px; font-size: 16px; color: #3d3d3d;}
+.header .nav{ margin-left: 100px; margin-top: 20px;}
+.header .nav ul li{ float: left; display: inline; line-height: 39px; }
+.header .nav ul li a{ display: block; margin: 0 5px; padding: 0 10px; }
+.header .nav>ul>li>a:hover,.header .nav>ul>li>a.hover{ border-bottom: 4px solid #468bfc; }
+.header .tel{ line-height: 80px;color: #468bfc; font-size: 24px; background: url(../images/telico.jpg) no-repeat left center; padding-left: 35px;}
+
+.nav ul li dl{margin:0px;padding:0;position:absolute;z-index:999;display:none; margin-left: -25px;}
+.nav ul li dl dt a{display:block;width:137px;height:40px;line-height:40px;text-align:center;background:#468bfc;color:#fff;font-size:14px;}
+.nav ul li dl dt a:hover{background:#242424;}
+
+.banner {height: 812px;position: relative;overflow: hidden;}
+.banner .hd {position: absolute;bottom: 20px;width: 100%;text-align: center;z-index: 2;}
+.banner .hd li {display: inline-block;cursor: pointer; background: #FFF; width: 80px; height: 5px; margin:0 10px;}
+.banner .hd li.on { background: #468bfc;}
+.banner .bd,.banner .bd ul,.banner .bd li {width: 100% !important;height: 100% !important;}
+.banner .bd li {background: no-repeat center;}
+.banner .bd li a {display: block;width: 100%;height: 100%;}
+
+.pro{ height: 1140px; background: url(../images/bg0.jpg) no-repeat top center; }
+.pro .title{ text-align: center; padding-top: 50px;  }
+.pro .title h2{ font-size: 38px; line-height: 60px; }
+.pro .title p{color: #8b92a0;}
+.pro .content{ padding-top: 50px; text-align: center; }
+.pro .content ul li{float: left; display: inline-block;transition-duration: 2s; width: 318px; height: 419px; background: #FFF; border: 1px solid #e0e0e0; margin-right: 40px; margin-bottom: 20px;}
+.pro .content ul li:hover{ transform: rotateY(360deg);}
+.pro .content ul li:nth-child(4n){margin-right: 0;}
+.pro .content ul li h3{ margin-top: 49px; }
+.pro .content ul li h4{ font-size: 24px; padding: 20px 0; }
+.pro .content ul li p{ color:#8b92a0; line-height: 30px;}
+.pro .content ul li .more{ width: 142px; height: 42px;margin: 27px auto; line-height: 42px; }
+.pro .content ul li .more a{ display: block;width: 142px; height: 42px; background: #468bfc; color: #FFF; }
+
+.ys{ height: 793px; background: url(../images/bg1.jpg) no-repeat top center; color: #FFF; }
+.ys .title{ text-align: center; padding-top: 90px;  }
+.ys .title h2{ font-size: 38px; line-height: 60px; }
+.ys .content{ padding-top: 80px; }
+.ys .content .fl{margin-left: 110px; width: 480px; padding-top: 50px;}
+.ys .content .fr{ width: 734px;}
+.ys .content .fl dl{ height: 70px; margin-bottom: 30px; overflow: hidden; }
+.ys .content .fl dl dt{ float: left; display: inline; margin-right: 27px; padding-top: 8px; }
+.ys .content .fl dl dd{ float: left; display: inline; }
+.ys .content .fl dl dd h3{ font-size: 24px; }
+
+.case{ height: auto; overflow: hidden; background: #f5f7fa; }
+.case .title{ text-align: center; padding-top: 50px;  }
+.case .title h2{ font-size: 38px; line-height: 60px; }
+.case .title p{color: #8b92a0;}
+.case .content{ margin-top: 55px;  height: auto; overflow: hidden; padding-left: 1px; padding-top: 1px; }
+.case .content ul li{ float: left;  display: flex; justify-content: center;align-items: center; width: 232px; height: 159px; border: 1px solid #3d3d3d; margin-left: -1px; margin-top: -1px; text-align: center; }
+.case .content ul li img{ width: auto; height: auto; vertical-align: middle;  }
+.case .more{ width: 142px; height: 42px;margin: 50px auto; line-height: 42px; text-align: center; }
+.case .more a{ display: block;width: 142px; height: 42px; background: #468bfc; color: #FFF; }
+
+.service{ height: 697px; overflow: hidden; background:url(../images/bg3.jpg) no-repeat top center; }
+.service .title{ text-align: center; padding-top: 120px;  }
+.service .title h2{ font-size: 38px; line-height: 60px; }
+.service .title p{color: #8b92a0;}
+.service .content{ padding-top: 150px; }
+.service .content ul{ padding-left: 90px; }
+.service .content ul li{ float: left; display: inline-block; width: 190px; margin-right: 80px; color: #3d3d3d;}
+.service .content ul li h3{ font-size: 24px; }
+.service .content ul li p{ color: #8b92a0; }
+.service .content ul li:last-child{ margin-right: 0; }
+.service .content ul li:nth-child(3){ margin-right: 60px; }
+.service .content1{ padding-top: 210px; }
+.service .content1 ul{ padding-left: 90px; }
+.service .content1 ul li{ float: left; display: inline-block; width: 190px; margin-right: 80px; color: #3d3d3d;}
+.service .content1 ul li h3{ font-size: 24px; }
+.service .content1 ul li p{ color: #8b92a0; }
+.service .content1 ul li:last-child{ margin-right: 0; }
+.service .content1 ul li:nth-child(2){ margin-right: 100px; }
+
+.news{ background: #f5f7fa; padding-top: 50px; padding-bottom: 60px; overflow: hidden; }
+.news .hd{ height:55px; border-bottom:1px solid #cbcdcf;  position:relative; }
+.news .hd .fl{ font-size: 38px;  }
+.news .hd .fl span{ font-size: 24px; }
+.news .hd ul{ float:left;   }
+.news .hd ul li{ float:left; padding:0 5px; margin-left: 45px; cursor:pointer; line-height: 51px; font-size: 18px; }
+.news .hd ul li.on{  border-bottom:4px solid #468bfc; }
+.news .bd ul{ padding:15px; zoom:1;}
+.news .bd ul .fl{ width: 650px; }
+.news .bd ul .fr{ width: 630px; }
+.news .bd ul .fl dl{ height: 90px; overflow: hidden; padding: 20px 0; border-bottom: 1px solid #cbcdcf; }
+.news .bd ul .fl dl:last-child{ border-bottom: none; }
+.news .bd ul .fl dl dt{ float: left; display: inline-block; width: 500px;transition-duration: 0.5s; }
+.news .bd ul .fl dl dd{ float: right; display: inline-block; width: 110px; border-left: 1px solid #cbcdcf; text-align: right; line-height: 90px; }
+.news .bd ul .fl dl dt h2{ font-size: 18px; padding-bottom: 10px; }
+.news .bd ul .fl dl dt p{ color: #626364; line-height: 27px; }
+.news .bd ul .fl dl dt:hover{padding-left: 20px;}
+
+.news .bd ul .fr dl dt{ line-height: 45px;transition-duration: 0.5s; }
+.news .bd ul .fr dl dt span{ float: right; color: #c6c7ca; }
+.news .bd ul .fr dl dt:hover{padding-left: 20px;}
+
+.adv{ background: url(../images/bg2.jpg) no-repeat top center; height: 143px; }
+.adv .tel{ font-size: 48px; color: #FFF; margin-left: 750px; float: left; line-height: 143px; }
+.adv .zixun{ width: 220px; height: 54px; float: left; margin-left: 60px; margin-top: 45px; font-size: 24px; }
+.adv .zixun a{ display: block; width: 220px; height: 54px; background:  #FFF; border-radius: 5px; text-align: center;line-height: 54px; color: #468bfc; }
+
+.footer{ background: #232323; height: auto; width: 100%; overflow: hidden; color: #aaaaaa; text-align: center; }
+.footer .chengnuo{ height: 101px; border-bottom: 1px solid #383939; color: #FFF; }
+.footer .chengnuo ul li{ float: left; display: inline-block; margin-right: 150px; padding-top: 18px; }
+.footer .chengnuo ul li:last-child{ margin-right: 0; }
+.footer .chengnuo ul li img{ position: relative; top:12px; margin-right: 10px; }
+.footer .contact{ text-align: left; height: 170px;border-bottom: 1px solid #383939; }
+.footer .contact .fl{margin-left: 120px; padding-top: 40px; line-height: 25px;}
+.footer .contact .fl span{ font-size: 24px; color: #468bfc; }
+.footer .contact .fr{margin-right: 120px; padding-top: 25px;}
+.footer .links{ height: 140px; background: url(../images/links.jpg) no-repeat 40px center; border-bottom: 1px solid #383939;}
+.footer .links ul{ float: left;margin-left: 200px; padding-top: 35px; }
+.footer .links ul li{ float: left; display: inline-block; line-height: 33px; margin-left: 40px; }
+.footer .links ul li a{ color: #aaaaaa; }
+.copyright{ line-height: 50px; }
+
+.area{ background: #232323; height: auto; width: 100%; overflow: hidden; color: #aaaaaa; text-align: center;margin-top: -10px; padding-bottom: 10px; }
+.area a{ color:#aaaaaa; margin-right: 15px; }
+.pages{ text-align: center; }
+
+.ny-title{ text-align: center; padding: 30px 0; }
+.ny-title h3{ font-size: 30px;  }
+.ny-title p{ font-size: 16px; }
+.ny-title p:after{ width: 71px; height: 1px; display: block;content:''; background: #468bfc; position: relative; left:47.3%; top:20px; }
+
+.about{ width: 100%;  padding: 30px 0 60px;}
+.about p{ text-indent: 25px; line-height: 30px; font-size: 16px; }
+.about .nr img{ max-width: 100%; }
+
+.fenlei{ text-align: center; margin-top: 30px; }
+.fenlei a{ border: 1px solid #ccc; padding: 8px 12px; margin-right: 15px; display: inline-block; }
+
+.list-1{ width: 100%;  padding: 30px 0 60px;}
+.list-1 dl{ height: auto; overflow: hidden; margin-top: 40px; margin-bottom: 32px; width:  }
+.list-1 dl dt{ float: left; display: inline; width: 460px;   }
+.list-1 dl dd{ float: left; display: inline; width: 750px; height: auto; margin-left: 25px; }
+.list-1 dl dt img{ width: 460px; }
+.list-1 dl dd h2{ font-size: 20px; margin-bottom: 15px;}
+.list-1 dl dd h2 a{ color: #333; }
+.list-1 dl dd h2 span{ float: right; font-size: 18px; }
+.list-1 dl dd p{ line-height: 35px; color: #999; font-size: 16px;  }
+.list-1 dl dd .more{ margin-top: 15px; }
+.list-1 dl dd .more a{display:inline-block;position:relative; margin-right: 10px;padding:0 20px;height:36px;line-height:36px;border-radius:36px;background:#468bfc;font-weight:400;font-size:15px;color:#fff;text-align:left}
+.list-1 dl dd .more a:hover{background:#2d2d2d} 
+
+.list-2{ width: 100%; height: auto; overflow: hidden;padding: 30px 0 60px; }
+.list-2 .content{ margin-top: 40px; }
+.list-2 ul li{ float: left; display: inline;  margin-right: 20px; margin-bottom: 20px; text-align: center;  }
+.list-2 ul li:nth-child(4n){margin-right: 0;}
+.list-2 ul li img{ width: 330px; height: 300px;  border: 1px solid #ccc; }
+.list-2 ul li h3{ line-height: 40px;  font-size: 16px; width: 300px; height: 40px; overflow: hidden;}
+
+.list-3{ width: 100%;  padding: 30px 0 30px; height: auto; overflow: hidden;}
+.list-3 .content{ padding-bottom: 20px; padding-left: 1px; padding-top: 1px; padding-top: 50px; height: auto; overflow: hidden;  }
+.list-3 .content ul li{ float: left;  display: flex; justify-content: center;align-items: center; width: 232px; height: 159px; border: 1px solid #3d3d3d; margin-left: -1px; margin-top: -1px; text-align: center; }
+.list-3 .content ul li img{ width: auto; height: auto; vertical-align: middle;  }
+
+.news{ width: 100%;  padding:60px 0 60px;}
+.news h1{ text-align: center; color: #333; font-size: 30px;font-weight: bold; }
+.news .date{ text-align: center; margin-top: 15px; color: #666; }
+.news .date span{ padding: 0 15px; }
+.news .nr{ padding: 20px 0; line-height: 35px; font-size: 20px;}
+.news .nr img{ max-width: 100%; }
+.news .page{ background: #f5f5f5; height: 50px; line-height: 50px; font-size: 16px; }
+.news .page .l{float: left; display: inline; padding-left: 15px;}
+.news .page .r{float: right; display: inline; padding-right: 15px;}

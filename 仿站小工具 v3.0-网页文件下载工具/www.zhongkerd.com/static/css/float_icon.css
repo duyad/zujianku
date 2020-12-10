@@ -1,0 +1,74 @@
+﻿.fixed-box{
+    position: fixed;
+    text-align: right;
+    z-index: 100;
+    right: 20px;
+    bottom:40px;
+	line-height:52px;
+}
+.fixed-div .fixed-icon,.fixed-icon-phone,.fixed-icon-qq,.fixed-icon-email{
+    display: inline-block;
+    background: url("../images/000.png") no-repeat;
+    font-size: 16px;
+}
+.fixed-div .fixed-icon{
+    width:52px;
+    height:52px;
+}
+.fixed-icon-phone,.fixed-icon-qq{
+    width: 162px;
+    height: 52px;
+    opacity: 0;
+}
+.fixed-icon-email{
+    width: 242px;
+    height: 52px;
+    opacity: 0;
+}
+.fixed-top .fixed-icon{
+    background-position: -10px -10px;
+    position: relative;
+    top: -14px;
+}
+.fixed-phone .fixed-icon{
+    background-position: -70px -10px;
+}
+.fixed-qq .fixed-icon{
+    background-position: -130px -10px;
+}
+.fixed-email .fixed-icon{
+    background-position: -190px -10px;
+}
+.fixed-icon-phone,.fixed-icon-qq,.fixed-icon-email{
+    line-height: 52px;
+    color:#82ce5a;
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+.fixed-icon-phone{
+    background-position: -10px -129px;
+}
+.fixed-icon-qq{
+    background-position: -10px -129px;
+}
+.fixed-icon-email{
+    background-position: -10px -190px;
+}
+.fixed-top .fixed-icon:hover{
+    background-position: -10px -70px;
+}
+.fixed-phone .fixed-icon:hover{
+    background-position: -70px -70px;
+}
+.fixed-qq .fixed-icon:hover{
+    background-position: -131px -70px;
+}
+.fixed-email .fixed-icon:hover{
+    background-position: -190px -70px;
+}
+.fixed-div{
+    position: relative;
+    margin-bottom: -20px;
+    font-style: normal;
+}
